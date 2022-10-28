@@ -1,7 +1,7 @@
 
 
 body{
-	background: rgb(238, 180, 179);
+	background: rgb(255, 237, 223);
 	color: #52154E;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
@@ -20,14 +20,14 @@ h1 {
 	
 
 h2{
-	color: rgb(176, 123, 172)
+	color: #8783D1;
 	font-size: 20px;
 	font-weight: 500;
 }
 
 a {
 	text-decoration: none;
-	color: #FE4A49;
+	color: #FFEDDF;
 	font-weight: 600;
 	font-family: Roboto Slab;
 	font-size: 16px;
@@ -69,17 +69,18 @@ a:hover{
 
 .img-circle {
 	border-radius: 50%;
+	width: 100px
 }
 
-.btn-blue {
+.btn-red {
 	background-color: #FE4A49;
 	color: white;
 	padding:  15px 20px;
 	border-radius: 4px;
 }
 
-.btn-blue:hover {
-	background-color: black;
+.btn-red:hover {
+	background-color: #7A0101;
 	color: white;
 }
 
@@ -95,11 +96,11 @@ a:hover{
 
 .list-inline i{
 	font-size: 50px;
-	color: rgb(230,230,230);
+	color: #FE4A49;
 }
 
 .list-inline i:hover {
-	color:  black;
+	color:  rgb(122,1,1);
 }
 
 #introduction p{
